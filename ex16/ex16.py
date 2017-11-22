@@ -31,6 +31,7 @@ input("? ")
 
 print("Opening the file...")
 # open file in write mode
+# open(filename) defaults to read mode
 target = open(filename, 'w')
 
 print("Truncating the file. Goodbye!")
