@@ -12,18 +12,22 @@ from sys import argv
 script, filename = argv
 
 # used argv to ask the user what file to open
+# open() makes something called a file object
 txt = open(filename)
 
 print(f"Here's your file {filename}:")
 print(txt.read())
+# close file after reading
+txt.close()
 
 print("Type the filename again:")
 file_again = input("> ")
 
+# used input() to ask user what file to open
 txt_again = open(file_again)
 
 print(txt_again.read())
-
+txt_again.close()
 '''
 Output is the following:
 Here's your file ex15_sample.txt:
