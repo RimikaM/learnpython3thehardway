@@ -6,7 +6,7 @@ Created on Thu Nov  9 23:10:37 2017
 @author: rimikamajumdar
 """
 
-# What was that?
+# Exercise 10: What was that?
 
 
 tabby_cat = "\tI'm tabbed in."
@@ -24,3 +24,17 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
+'''
+prints the following:
+    I'm tabbed in.
+I'm split
+on a line
+I'm \ a \ cat.
+
+I'll do a list:
+    * Cat food
+    * Fishies
+    * Catnip
+    * Grass
+    
+'''

@@ -6,7 +6,7 @@ Created on Tue Nov  7 11:34:43 2017
 @author: rimikamajumdar
 """
 
-# More printing
+# Exercise 7: More printing
 
 print("Mary had a little lamb.")
 print("Its fleece was white as {}.".format('snow'))
@@ -28,5 +28,6 @@ end12 = "r"
 
 # watch end = ' ' at the end.  try removing it to see what happens
 # removing it prints 'Burger' on the next line
+# prints Cheese with a space at the end, then Burger
 print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
 print(end7 + end8 + end9 + end10 + end11 + end12)

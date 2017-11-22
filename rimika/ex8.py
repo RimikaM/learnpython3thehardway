@@ -6,9 +6,15 @@ Created on Tue Nov  7 11:38:24 2017
 @author: rimikamajumdar
 """
 
-# Printing, Printing
+# Exercise 8: Printing, Printing
 
 formatter = "{} {} {} {}"
+
+''' 
+pass to format four arguments, which match up to the four {}s in the 
+formatter variable. This is like passing arguments to the command line 
+command format
+'''
 
 # prints 4 numbers with spaces in between
 print (formatter.format(1, 2, 3, 4))
