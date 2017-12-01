@@ -17,7 +17,7 @@ height = input()
 print("How much do you weigh?", end=' ')
 weight = input()
 
-print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+print(f"So, you're {age} years old, {height} tall and {weight} heavy.")
 
 script, filename = argv
 
@@ -119,7 +119,7 @@ How tall are you?
 3'5"
 How much do you weigh? 
 20 lbs
-So, you're 12 old, 3'5" tall and 20 lbs heavy.
+So, you're 12 years old, 3'5" tall and 20 lbs heavy.
 Here's your file {filename}:
 This is line 1
 This is line 2
