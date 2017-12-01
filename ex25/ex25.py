@@ -8,6 +8,10 @@ Created on Sun Nov 26 01:01:44 2017
 # Exercise 25: Even More practice
 # More practice involving functions and variables
 
+# try typing in help(ex25) and help(ex25.break_words) in the command line
+# you will get a description of all the functions in """ for help(ex25)
+# you will get a description of function break_words in """ for help(ex25.break_words)
+
 def break_words(stuff):
     """ function will break up words for us """
     # split returns a list
