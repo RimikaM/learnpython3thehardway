@@ -7,6 +7,14 @@ Created on Wed Dec 13 21:07:07 2017
 
 # Exercise 38: Doing Things to Lists
 
+'''
+When to use lists:
+    - if you need to maintain listed order
+    - need to access contents randomly by #
+    - need to go through the contents linearly
+'''
+
+
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
 
 print("Wait there are not 10 things in that list. Let's fix that.")
