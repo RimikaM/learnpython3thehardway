@@ -6,7 +6,7 @@ Created on Wed Dec 20 23:04:30 2017
 """
 
 from nose.tools import *
-import ex46
+import NAME
 
 def setup():
     print("SETUP!")
